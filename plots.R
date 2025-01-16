@@ -1,4 +1,4 @@
-## Plots
+# Plots
 library(tidyverse)
 
 #Source Scripts
@@ -162,7 +162,7 @@ average_days_detained <- nyt_data %>%
     .groups = "drop"
   )
 
-# Create the bar chart
+# average number of days detained per year
 ggplot(average_days_detained, aes(x = entry_year, y = avg_days)) +
   geom_bar(stat = "identity", fill = "#4682B4", color = "black", width = 0.7) +  # Bar chart
   labs(
@@ -178,4 +178,28 @@ ggplot(average_days_detained, aes(x = entry_year, y = avg_days)) +
     axis.title.x = element_text(face = "bold"),
     axis.title.y = element_text(face = "bold"),
     axis.text = element_text(size = 12)
+  )
+
+# Release to sponsor each year
+release_by_year <- nyt_data %>%
+  group_by(entry_year) %>%
+  summarise(`Children released to sponsor` = n()) %>%
+  rename(Year = entry_year )
+
+#Create bar chart for releases by year
+ggplot(release_by_year, aes(x = factor(Year), y = `Children released to sponsor`)) +
+  geom_bar(stat = "identity", fill = "#4682B4", color = "black", width = 0.7) +  # Black border for bars
+  labs(
+    title = "Number of Children Released to Sponsors by Year",
+    x = "Year",
+    y = "Number of Children Released"
+  ) +
+  scale_y_continuous(labels = scales::comma) +  # Format y-axis with commas
+  theme_minimal(base_size = 14) +
+  theme(
+    plot.title = element_text(hjust = 0.5, face = "bold", size = 16),
+    axis.text.x = element_text(angle = 45, hjust = 1, size = 12),
+    axis.text.y = element_text(size = 12),
+    axis.title.x = element_text(face = "bold", size = 14),
+    axis.title.y = element_text(face = "bold", size = 14)
   )
