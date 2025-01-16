@@ -6,11 +6,7 @@ README.md
 
 ## Purpose: 
 
-This analysis highlights systemic injustices in unaccompanied minors who arrive at the United States borders and amplifies their experiences. It is presented in two formats: an in-depth analysis within the **README.md**, designed for individuals with data analysis experience, and a **Tableau dashboard** for a broader audience less familiar with immigration issues or large datasets. Much of the content in the **README.md** is also reflected in the dashboard's visual display.
-
-##  Dataset
-
- This analysis utilizes a dataset provided by **The New York Times**, containing anonymized information on over **550,000 child migrants** spanning from **January 2015 to May 2023**. The dataset includes key details such as:
+This analysis highlights systemic injustices in unaccompanied minors who arrive at the United States borders and amplifies their experiences. It is presented in two formats: an in-depth analysis within the **README.md**, designed for individuals with data analysis experience, and a **Tableau dashboard** for a broader audience less familiar with immigration issues or large datasets. Most of the visualizations in the README.md are also reflected in the dashboard's visual display.
 
 
 #  Dataset
