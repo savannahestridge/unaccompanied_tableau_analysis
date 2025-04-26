@@ -2,15 +2,16 @@ README.md
 
 
 
-# Introduction 
 
-## Purpose: 
+# Purpose: 
 
-This analysis investigates the systemic injustices experienced by unaccompanied minors at the United States border, with the aim of amplifying their experiences through structured data analysis. The findings are presented in two formats: a comprehensive analysis within the **README.md**, intended for readers with a background in data analysis, and a **Tableau dashboard** designed to engage a wider audience, including those less familiar with immigration issues or large-scale datasets. The majority of visualizations contained in the README.md are also reproduced in the dashboard to maintain consistency and support broader accessibility.
+This analysis investigates the systemic injustices experienced by unaccompanied minors at the United States borders, with the aim of amplifying their experiences through data analysis. The findings are presented in two formats: a comprehensive analysis within this **README.md**, intended for readers with a background in data analysis, and a **Tableau dashboard** designed to engage a wider audience, including those less familiar with immigration issues or large-scale datasets. The majority of visualizations contained in the README.md are also reproduced in the dashboard to maintain consistency and support broader accessibility.
 
-#  Dataset
+# Methodology
 
- This analysis utilizes a dataset provided by **The New York Times**, containing anonymized information on over **550,000 child migrants** spanning from **January 2015 to May 2023**. The dataset includes key details such as:
+## Data Sources
+
+This analysis utilizes a dataset provided by **The New York Times**, containing anonymized information on over **550,000 child migrants** spanning from **January 2015 to May 2023**. The dataset includes key variables such as:
 
 - **Child’s gender**
 - **Country of origin**
@@ -19,13 +20,34 @@ This analysis investigates the systemic injustices experienced by unaccompanied 
 - **Relationship to the sponsor**
 - **ZIP code** of the child’s release destination
 
-To enhance the depth of this analysis, data from the **U.S. Department of Health and Human Services (HHS)** was also incorporated. The HHS regularly publishes detailed immigration data concerning unaccompanied minors, providing critical supplemental insights for this study.
+To enhance the depth of the analysis, data from the **U.S. Department of Health and Human Services (HHS)** was also incorporated. HHS regularly publishes immigration data related to unaccompanied minors, providing critical supplemental insights regarding trends in arrivals, custody durations, and sponsor releases.
+
+## Data Preparation
+
+Data cleaning procedures were conducted to ensure consistency and reliability across datasets. Incomplete records were removed, categorical variables were standardized, and duplicate entries were identified and excluded. All dates were converted to align with fiscal year conventions (October 1–September 30) used in federal reporting. Regional classifications were harmonized to support comparative analysis of geographic trends across sources.
+
+## Analytical Approach
+
+The analysis proceeded in two stages. First, descriptive statistics were calculated to summarize key demographic, geographic, and custodial characteristics, including gender distributions, country and regional origins, age cohorts, and average time in ORR custody. Temporal trends were examined across fiscal years to capture changes over time.
+
+Second, data visualizations were developed to support interpretation of major findings. Stacked bar plots, tree maps, and line graphs were created to illustrate trends in arrivals, detention durations, and sponsor placements. Visualizations were generated using R and Tableau to ensure accessibility for both technical and non-technical audiences. Supplemental tables were also developed to highlight significant patterns by fiscal year and region.
+
+## Limitations
+
+Several limitations should be acknowledged. While the New York Times dataset provides extensive coverage, it is anonymized and may omit variables relevant for more detailed case-level analysis. Fiscal year 2023 data reflect only partial-year reporting, which may influence interpretation of year-over-year trends. Additionally, while this analysis identifies trends in detention and placement, it does not incorporate legal outcomes or longitudinal tracking post-release, which would be necessary for a full understanding of minors' longer-term experiences.
+
 
 ------------------
 <!-- Reset alignment explicitly -->
 <div align="left">
 
-## 1. Arrivals: Demographics of those who arrive 
+# Introduction
+
+Unaccompanied minors arriving at the United States border represent a significant and complex aspect of contemporary migration patterns. This analysis examines demographic characteristics, custody durations, and sponsor placement outcomes for over **550,000** unaccompanied children recorded between **January 2015** and **May 2023**. Drawing on anonymized data provided by **The New York Times**, supplemented with publicly available data from the **U.S. Department of Health and Human Services (HHS)**, this study provides a structured overview of arrival trends, regional distributions, time spent in Office of Refugee Resettlement (ORR) custody, and subsequent release patterns. 
+
+The analysis is organized into three sections: **Arrival**, which examines the demographics and regional origins of unaccompanied minors; **Detainment**, which explores custody durations within ORR facilities; and **Release to Sponsor**, which analyzes patterns of sponsor placement across the United States. Findings are presented through descriptive statistics and data visualizations to provide a clearer understanding of the evolving experiences of unaccompanied minors over the past decade.
+
+## 1. Arrivals: Demographics Overview 
 
 </div>
 
@@ -39,9 +61,13 @@ Between  January **FY2015** and May **FY2023**, approximately **550,000 unaccomp
 
 <div align="center" style="border: 2px solid #ccc; padding: 10px; border-radius: 10px; display: inline-block;">
   <img width="325" alt="Arrivals" src="https://github.com/user-attachments/assets/7e645c30-3b2b-4144-a6a3-6f85ce634b92" />
-
+ 
+<p align="center">
+ 
   Between January 2015 and May 2023, unaccompanied children arrived from a total of<br> **111 countries**
 spanning across **8 regions** worldwide.
+ </p>
+ 
 </div>
 <br><br>
 
@@ -77,7 +103,7 @@ Between **FY2015** and **FY2023**, the number of unaccompanied children (UC) arr
 
 Between **FY2012** and **FY2024**, Guatemala consistently accounted for the largest share of arrivals, peaking at **54% in FY2018** and remaining dominant with **42% in FY2023**. Honduras followed as the second-largest source, fluctuating between **17% and 32%** over the years. In contrast, El Salvador and Mexico experienced significant declines, with El Salvador dropping from **34% in FY2016** to **8% in FY2024** and Mexico falling from **34% in FY2014** to **8% in FY2023**. Meanwhile, arrivals from "all other countries" grew steadily, increasing from **3-5% in earlier years** to **19% in FY2024**, reflecting a growing diversity in the origins of unaccompanied minors.
 
-**Key Takeaways**
+**Key Takeaway**
 
 Between **FY2015** and **FY2023**, the number of unaccompanied children (UC) arriving in the United States fluctuated significantly, rising from **25,885 in FY2015** to a peak of **125,041 in FY2022**. By mid-**FY2023**, **67,506 arrivals** from **76 countries** were recorded, though this data reflects only part of the year. The lowest arrivals occurred in **FY2020 (14,440)**, likely impacted by the COVID-19 pandemic.
 
@@ -111,7 +137,7 @@ This tree map displays the relative proportions of unaccompanied minor arrivals 
 
 The data indicates that the vast majority of unaccompanied minors arriving in the United States originate from **Central America**, accounting for **511,404 arrivals**, significantly outnumbering all other regions. **North America** (primarily Mexico) follows with **15,874 arrivals**, and **South America** is next with **15,137 arrivals**. Other regions such as **Asia** (**5,814 arrivals**), the **Caribbean** (**3,507 arrivals**), **Europe** (**707 arrivals**), **Africa** (**470 arrivals**), and the **Middle East** (**321 arrivals**) contribute comparatively smaller numbers. This highlights the predominance of migration from **Central America** and, to a lesser extent, neighboring regions like **North and South America**.
 
-**Key takeaways:**
+**Key takeaway:**
 
 The majority of unaccompanied minors originate from **Central America**, emphasizing the region's migration pressures and the need for targeted interventions. Contributions from **North America** and **South America** highlight the influence of geographic proximity on migration trends, while smaller numbers from regions like **Asia**, **Africa**, and the **Middle East** reflect broader global migration challenges. These trends underline the importance of regional cooperation and policies addressing both local and global drivers of migration.
 
@@ -135,7 +161,7 @@ This stacked bar chart displays the percentage distribution of unaccompanied min
 
 The age distribution of unaccompanied minors arriving in the United States has remained relatively consistent over the years. Minors aged **15-16** continue to represent the largest group, accounting for **31-40%** of arrivals, with a peak of **40% in FY2013**. The **17+** age group follows closely, comprising **30-38%** of arrivals across most years. Younger age groups, **0-12** and **13-14**, have historically made up smaller shares, with the **0-12** group gradually increasing from **11% in FY2012** to **24% in FY2024**, while the **13-14** group remains steady at **11-16%**. Recent data from **FY2024** suggests a small shift toward younger children, with the **15-16** and **17+** age groups seeing slight declines.
 
-**Key Takeaways**
+**Key Takeaway:**
 
 While the overall age distribution of unaccompanied minors has been stable, there is a subtle shift toward younger children, particularly those aged **0-12**, whose share has steadily grown over the years. The continued dominance of the **15-16** and **17+** age groups highlights their importance in the overall demographic trends, but the increasing presence of younger children indicates evolving migration dynamics that may reflect changing circumstances influencing who undertakes these journeys.
 
@@ -147,13 +173,26 @@ While the overall age distribution of unaccompanied minors has been stable, ther
 
 | <img src="https://github.com/user-attachments/assets/651549ce-07d2-4203-b227-bf1ce7f3be84" alt="Gender Bar Plot" width="600"> |
 |:---------------------------------------------------------------------------------------------------------:|
-| **Figure 4**: Gender stacked Bar Plot                                                                             |
-This stacked bar plot displays the percentage distribution of unaccompanied minors by gender for each 2015 through mid 2023 . Each bar represents 100% of arrivals in a given year, divided into two categories: **Males** and **Females**, allowing for a clear comparison of gender proportions across years.
+| **Figure 4**: Gender Distribution Stacked Bar Plot                                                                             |
+This stacked bar plot illustrates the annual percentage distribution of unaccompanied minors by gender from 2015 through mid-2023. Each bar represents 100 percent of arrivals for a given year, segmented into two categories: male and female. This format enables direct comparison of gender proportions across the observation period.
 <br>
+
+**Gender Distribution of Unaccompanied Minors by Fiscal Year (FY2012–FY2024)**
 
 <div align="center">
   <img width="813" alt="Gender" src="https://github.com/user-attachments/assets/e44e0940-11ee-4378-ab1c-e3a17c6da3b8" />
 </div>
+
+
+The table presents the proportion of unaccompanied minors by gender for each fiscal year from 2012 through 2024. Males consistently represented the majority of arrivals across all years, although their proportion declined over time. In FY2012, males accounted for **77%** of arrivals, compared to **23%** for females. By FY2024, the proportion of male arrivals had decreased to **61%**, while the proportion of female arrivals increased to **38%**.
+
+The most substantial shifts occurred between FY2012 and FY2014, when the proportion of males declined from **77%** to **66%**, and the proportion of females correspondingly rose from **23%** to **34%**. From FY2015 onward, the gender distribution remained relatively stable, with only gradual changes. Notably, between FY2022 and FY2024, the percentage of females increased from **36%** to **38%**, suggesting a slight upward trend in the share of female minors among recent arrivals.
+
+**Key Takeaway:**
+
+Between FY2012 and FY2024, the proportion of male unaccompanied minors declined from **77%** to **61%**, while the proportion of females rose from **23%** to **38%**, indicating a gradual shift toward greater gender balance.
+
+
 
 ---------------------------
 
@@ -161,7 +200,7 @@ This stacked bar plot displays the percentage distribution of unaccompanied mino
 <!-- Reset alignment explicitly -->
 <div align="left">
 
-## 2. Detained: ORR custody before release to sponsors
+## 2. Detained: Time in ORR Custody Prior to Release
 
 </div>
 
