@@ -29,7 +29,7 @@ To enhance the depth of this analysis, data from the **U.S. Department of Health
 
 </div>
 
-  Between January **FY2015** and May **FY2023**, approximately **550,000 unaccompanied children (UC)** arrived in the United States, highlighting the scale of the humanitarian challenge.
+Between  January **FY2015** and May **FY2023**, approximately **550,000 unaccompanied children (UC)** were recorded arriving at the United States border.
 
 <div align="center">
 
