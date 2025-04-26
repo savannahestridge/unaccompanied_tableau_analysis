@@ -6,8 +6,7 @@ README.md
 
 ## Purpose: 
 
-This analysis highlights systemic injustices in unaccompanied minors who arrive at the United States borders and amplifies their experiences. It is presented in two formats: an in-depth analysis within the **README.md**, designed for individuals with data analysis experience, and a **Tableau dashboard** for a broader audience less familiar with immigration issues or large datasets. Most of the visualizations in the README.md are also reflected in the dashboard's visual display.
-
+This analysis investigates the systemic injustices experienced by unaccompanied minors at the United States border, with the aim of amplifying their experiences through structured data analysis. The findings are presented in two formats: a comprehensive analysis within the **README.md**, intended for readers with a background in data analysis, and a **Tableau dashboard** designed to engage a wider audience, including those less familiar with immigration issues or large-scale datasets. The majority of visualizations contained in the README.md are also reproduced in the dashboard to maintain consistency and support broader accessibility.
 
 #  Dataset
 
