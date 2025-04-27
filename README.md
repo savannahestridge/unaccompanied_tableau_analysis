@@ -244,12 +244,16 @@ The average time minors spent in ORR custody peaked at **69 days in 2020** but h
 
 <div align="center">
 
-| <img width="900" alt="Released to Sponsor Each Year" src="https://github.com/user-attachments/assets/3225773d-865c-4743-8823-6197f482f535" /> |
-|---------------------------------------------------------------------------------------------------------------|
-| **Figure**: Number of Children Released to Sponsors by Year                                                  |
-
+| <img width="600" alt="Released to Sponsor Each Year" src="https://github.com/user-attachments/assets/3225773d-865c-4743-8823-6197f482f535" /> |
+|:---------------------------------------------------------------------------------------------------------------------------------:|
+| **Figure 6**: Number of Children Released to Sponsors by Year  
+This bar chart displays the **number of unaccompanied children released to sponsors** for each fiscal year from **FY2015 to FY2023**. Each bar represents the total number of children released in a given year, allowing for year-over-year comparison.
+<br>
 </div>
+
 <br><br>
+
+
 
 <div align="center">
   <strong>Children Released to Sponsors by Year</strong>
