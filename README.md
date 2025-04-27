@@ -71,7 +71,7 @@ spanning across **8 regions** worldwide.
 | <img src="https://github.com/user-attachments/assets/9c801603-cc5a-42bc-8532-696e203b48cc" alt="Arrivals Per Year Plot" style="max-width:100%; height:auto;" /> |
 |:-----------------------------------------------------------------------------------------------------------:|
 | **Figure 1**: Arrivals Per Year  
-The line graph above depicts the total number of entries of unaccompanied children (UC) by year in the United States.
+The line graph above depicts annual entries of unaccompanied children in the United States from January 2015 to May 2023.
 <br>
 
 <br>
