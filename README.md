@@ -177,7 +177,7 @@ Although minors aged 15–16 and 17 and older continue to represent the majority
 This stacked bar plot illustrates the annual percentage distribution of unaccompanied minors by gender from 2015 through mid-2023. Each bar represents 100 percent of arrivals for a given year, segmented into two categories: male and female.
 <br>
 
-**Table 6: Gender Distribution of Unaccompanied Minors by Fiscal Year (FY2012–FY2024)**
+**Table 5: Gender Distribution of Unaccompanied Minors by Fiscal Year (FY2012–FY2024)**
 
 <div align="center">
   <img width="813" alt="Gender" src="https://github.com/user-attachments/assets/e44e0940-11ee-4378-ab1c-e3a17c6da3b8" />
@@ -204,7 +204,7 @@ Between FY2012 and FY2024, the gender gap among unaccompanied minors narrowed, r
 
 <div align="center" style="max-width:500px; margin:auto;">
 
-| <img width="500" height="350" alt="Average Days in ORR Custody" src="https://github.com/user-attachments/assets/d8475dcf-22e5-4583-a9c6-225ae85c9f6b" /> |
+| <img width="550" height="300" alt="Average Days in ORR Custody" src="https://github.com/user-attachments/assets/d8475dcf-22e5-4583-a9c6-225ae85c9f6b" /> |
 |:------------------------------------------------------------------------------------------------------------------:|
 | **Figure 5**: Average Days in ORR Custody  
 This bar chart displays the average number of days unaccompanied minors spent in ORR custody for each fiscal year. Each bar represents the yearly average duration of detention, allowing for easy comparison of custody
@@ -216,7 +216,7 @@ This bar chart displays the average number of days unaccompanied minors spent in
 <img width="721" alt="Days in ORR Custody" src="https://github.com/user-attachments/assets/3442db3e-abbf-49fa-9e44-92462d438d00" />
 </div>
 
-Between 2015 and 2020, the average number of days detained increased from **38 days** to **69 days**, reflecting an **81.6%** rise. Notably, 2020 recorded the longest average detention time. Since then, the average number of days detained has declined steadily each year. By mid-2023, detention times have dropped to less than half of the 2020 average, despite a significant increase in the number of arrivals.
+Between 2015 and 2020, the average number of days detained increased from **38 days** to **69 days**, reflecting an **81.6%** rise. Notably, 2020 recorded the longest average detention time. Since then, the average number of days detained has declined steadily each year. By mid-2023, detention times have dropped to less than half of the 2020 average, despite a significant increase in the number of arrivals[^1].
 
 **Table 7: Average number of days detained in ORR custody by region 2015 through mid 2023**
 <div align="center">
@@ -225,7 +225,7 @@ Between 2015 and 2020, the average number of days detained increased from **38 d
 
 <br>
 
-Regional differences also reveal important patterns. Minors from **Africa** experienced the longest average detention time at **74.8** days, followed by Asia at **53.3** days, while those from the Caribbean and South America had the shortest stays, at **22.6** days and **24.5** days, respectively. Central America, the primary region of origin, averaged **37.0 days**, while other regions such as **North America**, **Europe**, and the **Middle East** had averages closer to the median. These disparities may reflect differences in case complexity or regional policies, but it is important to consider the large differences in arrival numbers when interpreting these trends.
+Regional differences also reveal important patterns. Minors from **Africa** experienced the longest average detention time at **74.8** days, followed by Asia at **53.3** days, while those from the Caribbean and South America had the shortest stays, at **22.6** days and **24.5** days, respectively. Central America, the primary region of origin, averaged **37.0 days**, while other regions such as **North America**, **Europe**, and the **Middle East** had averages closer to the median. These disparities may reflect differences in case complexity or regional policies, but it is important to consider the large differences in arrival numbers when interpreting these trends[^1].
 
 **Key takeaways:**
 
@@ -261,7 +261,7 @@ This bar chart displays the **number of unaccompanied children released to spons
 
 <div align="center">
   
-The data on the number of unaccompanied children (UC) released to sponsors each year from 2015 to mid-2023 highlights notable trends and fluctuations. Releases peaked in 2021 with **144,937** children, coinciding with an increase in overall arrivals during that period. In contrast, 2020 recorded the lowest number of releases (**14,273**), likely impacted by the COVID-19 pandemic, which disrupted immigration processes and reduced border crossings. The decline in 2020 was followed by a sharp recovery in 2021 and slightly lower but still elevated releases in 2022 (**123,836**).
+The data on the number of unaccompanied children (UC) released to sponsors each year from 2015 to mid-2023 highlights notable trends and fluctuations. Releases peaked in 2021 with **144,937** children, coinciding with an increase in overall arrivals during that period. In contrast, 2020 recorded the lowest number of releases (**14,273**), likely impacted by the COVID-19 pandemic, which disrupted immigration processes and reduced border crossings. The decline in 2020 was followed by a sharp recovery in 2021 and slightly lower but still elevated releases in 2022 (**123,836**)[^1].
 
 <br>
 
@@ -275,7 +275,7 @@ The data on the number of unaccompanied children (UC) released to sponsors each 
 <br>
 
 
-The above data displays the number of UC released to sponsors in the ten states with the highest release numbers. **Texas (TX)** recorded the largest number of releases (**71,816**), followed by **California (CA)** with **61,143** and **Florida (FL)** with **53,810**. Other states, such as **New York (NY)** (**42,339**) and **Maryland (MD)** (**29,029**), also saw significant release numbers. States like **Georgia (GA)** (**19,679**) and **Tennessee (TN)** (**17,828**) had comparatively fewer releases but still ranked among the top ten. These figures highlight the states most impacted by sponsor placements, with Texas and California alone accounting for a substantial portion of the total. </p>  
+The above data displays the number of UC released to sponsors in the ten states with the highest release numbers. **Texas (TX)** recorded the largest number of releases (**71,816**), followed by **California (CA)** with **61,143** and **Florida (FL)** with **53,810**. Other states, such as **New York (NY)** (**42,339**) and **Maryland (MD)** (**29,029**), also saw significant release numbers. States like **Georgia (GA)** (**19,679**) and **Tennessee (TN)** (**17,828**) had comparatively fewer releases but still ranked among the top ten. These figures highlight the states most impacted by sponsor placements, with Texas and California alone accounting for a substantial portion of the total[^2]. </p>  
 
 **Key Takeaway:**
 
@@ -288,7 +288,7 @@ The number of unaccompanied minors released to sponsors closely mirrored annual 
 
 ### Conclusion
 
-This analysis provides an overview of trends in arrivals, detention durations, and sponsor placements among unaccompanied minors arriving at the United States border between FY2015 and mid-FY2023. Although the number of arrivals fluctuated during this period, the data show a gradual diversification in countries of origin and a steady decline in average time spent in ORR custody, despite increasing caseloads. Regional disparities in detention durations were evident, suggesting that region of origin is associated with differences in case processing. Shifts in the age and gender distributions further indicate evolving migration dynamics among unaccompanied minors. Together, these findings contribute to a broader understanding of recent migration patterns while highlighting important areas for future research.
+This analysis provides an overview of trends in arrivals, detention durations, and sponsor placements among unaccompanied minors arriving at the United States border between FY2012 and mid-FY2024. Although the number of arrivals fluctuated during this period, the data show a gradual diversification in countries of origin and a steady decline in average time spent in ORR custody, despite increasing arrivals. Regional disparities in detention durations were evident, suggesting that region of origin is associated with differences in case processing. Shifts in the age and gender distributions further indicate evolving migration dynamics among unaccompanied minors. 
 
   
 
