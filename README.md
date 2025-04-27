@@ -288,7 +288,8 @@ The number of unaccompanied minors released to sponsors closely mirrored annual 
 
 ### Conclusion
 
-This analysis provides an overview of trends in arrivals, detention durations, and sponsor placements among unaccompanied minors arriving at the United States border between FY2012 and mid-FY2024. Although the number of arrivals fluctuated during this period, the data show a gradual diversification in countries of origin and a steady decline in average time spent in ORR custody, despite increasing arrivals. Regional disparities in detention durations were evident, suggesting that region of origin is associated with differences in case processing. Shifts in the age and gender distributions further indicate evolving migration dynamics among unaccompanied minors. 
+This analysis documents trends in arrivals, detention durations, and sponsor placements among unaccompanied minors arriving at the United States border between FY2012 and mid-FY2024. The findings show a steady diversification of countries of origin, a decline in average time spent in ORR custody despite increasing arrivals, and persistent regional disparities in detention durations. Changes in age and gender distributions further suggest evolving migration dynamics among unaccompanied minors. Given that these minors are not guaranteed a right to legal representation, understanding these trends is critical for informing future policy, case management practices, and protection strategies.
+
 
   
 
