@@ -1,5 +1,7 @@
 
-# Purpose: 
+# Crossing Alone: The Journeys of Unaccompanied Minors
+
+### Purpose: 
 
 This analysis examines the journeys of unaccompanied minors arriving at the United States border, aiming to shed light on the scale, complexity, and consequences of contemporary migration patterns. Through documenting trends in arrivals, detention durations, and sponsor placements, the analysis provides critical insights for understanding a population navigating the immigration system without guaranteed legal representation. The findings are presented in two formats: a comprehensive analysis within this README.md, intended for readers with a background in data analysis, and a Tableau dashboard designed to engage a broader audience, including those less familiar with immigration issues or large-scale datasets.
 
