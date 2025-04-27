@@ -103,8 +103,6 @@ According to ORR[^2], between FY2012 and FY2024, Guatemala consistently accounte
 
 **Key Takeaway**
 
-Between FY2015 and FY2023, the number of unaccompanied children arriving in the United States fluctuated significantly, rising from **25,885 in FY2015** to a peak of **125,041 in FY2022**. By -**FY2023**, **67,506 arrivals** from **76 countries** were recorded, though this data reflects only part of the year. The lowest arrivals occurred in **FY2020 (14,440)**, likely impacted by the COVID-19 pandemic.
-
 Guatemala and Honduras were the primary countries of origin for unaccompanied minor arrivals, with Guatemala consistently leading. Meanwhile, arrivals from El Salvador and Mexico have steadily declined, and the share of arrivals from "all other countries" has grown to 19% in FY2024, reflecting increasing diversity and evolving migration patterns.
 
 ### Regions
