@@ -199,31 +199,36 @@ Between FY2012 and FY2024, the gender gap among unaccompanied minors narrowed, r
 
 ## 2. Detained: Time in ORR Custody Prior to Release
 
+<br>
+
 <div align="center" style="max-width:500px; margin:auto;">
 
 | <img width="500" height="350" alt="Average Days in ORR Custody" src="https://github.com/user-attachments/assets/d8475dcf-22e5-4583-a9c6-225ae85c9f6b" /> |
 |:------------------------------------------------------------------------------------------------------------------:|
 | **Figure 5**: Average Days in ORR Custody  
-This bar chart displays the **average number of days unaccompanied minors spent in ORR (Office of Refugee Resettlement) custody** for each fiscal year. Each bar represents the yearly average duration of detention, allowing for easy comparison of custody
+This bar chart displays the average number of days unaccompanied minors spent in ORR custody for each fiscal year. Each bar represents the yearly average duration of detention, allowing for easy comparison of custody
 
+<br>
 
 **Table 6: Average number of days detained in ORR custody by year**
 <div align="center">
 <img width="721" alt="Days in ORR Custody" src="https://github.com/user-attachments/assets/3442db3e-abbf-49fa-9e44-92462d438d00" />
 </div>
 
-Between **2015** and **2020**, the average number of days detained increased from **38 days** to **69 days**, reflecting an **81.6% rise**. Notably, **2020** recorded the longest average detention time. Since then, the average number of days detained has declined steadily each year. By mid-**2023**, detention times have dropped to less than half of the **2020 average**, despite a significant increase in the number of arrivals.
+Between 2015 and 2020, the average number of days detained increased from **38 days** to **69 days**, reflecting an **81.6%** rise. Notably, 2020 recorded the longest average detention time. Since then, the average number of days detained has declined steadily each year. By mid-2023, detention times have dropped to less than half of the 2020 average, despite a significant increase in the number of arrivals.
 
 **Table 7: Average number of days detained in ORR custody by region 2015 through mid 2023**
 <div align="center">
   <img width="868" alt="Days detained region" src="https://github.com/user-attachments/assets/c8750efd-b3e3-49ab-971e-a9fc381e0067" />
 </div>
 
-Regional differences also reveal important patterns. Minors from **Africa** experienced the longest average detention time at **74.8 days**, followed by **Asia** at **53.3 days**, while those from the **Caribbean** and **South America** had the shortest stays, at **22.6 days** and **24.5 days**, respectively. **Central America**, the primary region of origin, averaged **37.0 days**, while other regions such as **North America**, **Europe**, and the **Middle East** had averages closer to the median. These disparities may reflect differences in case complexity or regional policies, but it is important to consider the large differences in arrival numbers when interpreting these trends.
+<br>
 
-**Key takeaways**
+Regional differences also reveal important patterns. Minors from **Africa** experienced the longest average detention time at **74.8** days, followed by Asia at **53.3** days, while those from the Caribbean and South America had the shortest stays, at **22.6** days and **24.5** days, respectively. Central America, the primary region of origin, averaged **37.0 days**, while other regions such as **North America**, **Europe**, and the **Middle East** had averages closer to the median. These disparities may reflect differences in case complexity or regional policies, but it is important to consider the large differences in arrival numbers when interpreting these trends.
 
-The average time minors spent in ORR custody peaked at **69 days in 2020** but has steadily declined to less than half that figure by mid-2023, even as arrivals increased. Regional disparities show minors from **Africa** had the longest stays (**74.8 days**), while those from the **Caribbean** and **South America** had the shortest (**22.6 days** and **24.5 days**, respectively). **Central America**, the largest source of arrivals, averaged **37.0 days**, with other regions like **Asia**, **Europe**, and **North America** closer to the median. These trends highlight improvements in processing efficiency, though differences in detention times likely reflect case complexities, regional policies, and disparities in arrival numbers.
+**Key takeaways:**
+
+Despite increases in arrivals and countries of origin, the average time minors spent in ORR custody declined. Regional disparities persist, with region of origin strongly associated with detention duration.
 
 
 </div> <!-- Close the centered section -->
