@@ -5,7 +5,7 @@ This analysis investigates the journeys of unaccompanied minors who arrive at th
 
 #### Data Sources
 
-This analysis draws on two datasets. First is data published by The New York Times[^1], containing anonymized information on over 550,000 unnacompanied minor migrants arriving in the United States between January 2015 and May 2023. This dataset includes the following:
+This analysis draws on two datasets. First is data published by The New York Times[^1], containing anonymized information on over 550,000 unnacompanied minor migrants arriving in the United States between January FY2015 and May FY2023. This dataset includes the following:
 
 - **Child’s gender**
 - **Country of origin**
@@ -14,7 +14,7 @@ This analysis draws on two datasets. First is data published by The New York Tim
 - **Relationship to the sponsor**
 - **ZIP code** of the child’s release destination
 
-The second data set was mad available through Office of Refugee Resettlement (ORR)[^2], an agency within the Department of Health and Human Services. HHS regularly publishes immigration data pertaining to unaccompanied minors[^2], providing data on unaccompanied minors arrivals, custody durations, and sponsor releases. This dataset includes (but is not limited to) the following variables: 
+The second data set was mad available through Office of Refugee Resettlement (ORR)[^2], an agency within the Department of Health and Human Services. HHS regularly publishes immigration data pertaining to unaccompanied minors[^2], providing data on unaccompanied minors arrivals, custody durations, and sponsor releases between FY2012 and FY2024. This dataset includes (but is not limited to) the following variables: 
 
 - **Child's age**
 - **Country of origin**
@@ -22,6 +22,7 @@ The second data set was mad available through Office of Refugee Resettlement (OR
 - **Average length of care** 
 - **States minors are released to**
 
+Note: These datasets include only unaccompanied minors who were detained by ORR and subsequently released to sponsors within the United States; they do not capture minors who were turned away at the border.
 
 ## Analytical Approach
 
@@ -31,7 +32,7 @@ Second, data visualizations were developed to support interpretation of major fi
 
 ## Limitations
 
-Several limitations should be acknowledged. While the New York Times dataset provides extensive coverage, it is anonymized and may omit variables relevant for more detailed case-level analysis. Fiscal year 2023 data reflect only partial-year reporting, which may influence interpretation of year-over-year trends. Additionally, while this analysis identifies trends in detention and placement, it does not incorporate legal outcomes or longitudinal tracking post-release, which would be necessary for a full understanding of minors' longer-term experiences.
+Several limitations warrant consideration. Although the New York Times dataset provides extensive coverage, it is anonymized and may lack variables necessary for detailed case-level analysis. Fiscal year 2023 data represent only partial-year reporting, potentially affecting the interpretation of year-over-year trends. The dataset is further limited to unaccompanied minors detained by ORR and subsequently released to sponsors, excluding minors turned away at the border. 
 
 ------------------
 <!-- Reset alignment explicitly -->
@@ -249,7 +250,7 @@ This bar chart displays the **number of unaccompanied children released to spons
 <br>
 
 <div align="center">
-  <strong>Children Released to Sponsors by Year</strong>
+  <strong>Table 8: Children Released to Sponsors by Year</strong>
 </div>
 
 
@@ -258,29 +259,37 @@ This bar chart displays the **number of unaccompanied children released to spons
   <img width="813" alt="Screenshot 2025-01-21 at 2 45 49 PM" src="https://github.com/user-attachments/assets/ecc1ceb9-80bf-4363-b48c-b6a1486059b2" />
 </div>
 
-
+<div align="center">
+  
 The data on the number of unaccompanied children (UC) released to sponsors each year from 2015 to mid-2023 highlights notable trends and fluctuations. Releases peaked in 2021 with **144,937** children, coinciding with an increase in overall arrivals during that period. In contrast, 2020 recorded the lowest number of releases (**14,273**), likely impacted by the COVID-19 pandemic, which disrupted immigration processes and reduced border crossings. The decline in 2020 was followed by a sharp recovery in 2021 and slightly lower but still elevated releases in 2022 (**123,836**).
 
 <br>
 
 <div align="center">
   
-**Top 10 States by Number of Unaccompanied Minors Released to Sponsors**
+**Table 9: Top 10 States by Number of Unaccompanied Minors Released to Sponsors**
 <div align="center">
   <img width="813" alt="Top Ten Released to States" src="https://github.com/user-attachments/assets/9d4e9c16-41c3-4973-9325-a35420ec9e50" />
 </div>
+
+<br>
+
 
 The above data displays the number of UC released to sponsors in the ten states with the highest release numbers. **Texas (TX)** recorded the largest number of releases (**71,816**), followed by **California (CA)** with **61,143** and **Florida (FL)** with **53,810**. Other states, such as **New York (NY)** (**42,339**) and **Maryland (MD)** (**29,029**), also saw significant release numbers. States like **Georgia (GA)** (**19,679**) and **Tennessee (TN)** (**17,828**) had comparatively fewer releases but still ranked among the top ten. These figures highlight the states most impacted by sponsor placements, with Texas and California alone accounting for a substantial portion of the total. </p>  
 
 **Key Takeaway:**
 
-The number of unaccompanied children released to sponsors fluctuated between 2015 and mid-2023, with a sharp decline in 2020 followed by a peak in 2021. Texas, California, and Florida accounted for the highest number of sponsor placements, with Texas and California alone representing a substantial share of total releases.
-
+The number of unaccompanied minors released to sponsors closely mirrored annual arrival patterns. Texas, California, and Florida recorded the highest numbers of sponsor placements, with the top ten states collectively accounting for more than two-thirds of all releases.
 
 <!-- CLOSE any previous centering -->
 <!-- Reset alignment explicitly -->
 
 <div align="left">
+
+### Conclusion
+
+This analysis provides an overview of trends in arrivals, detention durations, and sponsor placements among unaccompanied minors arriving at the United States border between FY2015 and mid-FY2023. Although the number of arrivals fluctuated during this period, the data show a gradual diversification in countries of origin and a steady decline in average time spent in ORR custody, despite increasing caseloads. Regional disparities in detention durations were evident, suggesting that region of origin is associated with differences in case processing. Shifts in the age and gender distributions further indicate evolving migration dynamics among unaccompanied minors. Together, these findings contribute to a broader understanding of recent migration patterns while highlighting important areas for future research.
+
   
 
 ### References
