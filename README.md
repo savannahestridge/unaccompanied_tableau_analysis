@@ -5,13 +5,15 @@ README.md
 
 # Purpose: 
 
-This analysis investigates the systemic injustices experienced by unaccompanied minors at the United States borders, with the aim of amplifying their experiences through data analysis. The findings are presented in two formats: a comprehensive analysis within this **README.md**, intended for readers with a background in data analysis, and a **Tableau dashboard** designed to engage a wider audience, including those less familiar with immigration issues or large-scale datasets. The majority of visualizations contained in the README.md are also reproduced in the dashboard to maintain consistency and support broader accessibility.
+This analysis investigates the journeys of unaccompanied minors who arrive at the United States border, with the aim of providing an understanding of their experiences through data analysis. The findings are presented in two formats: a comprehensive analysis within this **README.md**, intended for readers with a background in data analysis, and a **Tableau dashboard** designed to engage a wider audience, including those less familiar with immigration issues or large-scale datasets. 
 
 # Methodology
 
 ## Data Sources
 
-This analysis utilizes a dataset provided by **The New York Times**, containing anonymized information on over **550,000 child migrants** spanning from **January 2015 to May 2023**. The dataset includes key variables such as:
+This analysis utilizes a dataset published by The New York Times[^1], containing anonymized information on over 550,000 child migrants between January 2015 and May 2023.
+
+The dataset includes key variables such as:
 
 - **Child’s gender**
 - **Country of origin**
@@ -20,7 +22,7 @@ This analysis utilizes a dataset provided by **The New York Times**, containing 
 - **Relationship to the sponsor**
 - **ZIP code** of the child’s release destination
 
-To enhance the depth of the analysis, data from the **U.S. Department of Health and Human Services (HHS)** was also incorporated. HHS regularly publishes immigration data related to unaccompanied minors, providing critical supplemental insights regarding trends in arrivals, custody durations, and sponsor releases.
+To enhance the depth of the analysis, data from the U.S. Department of Health and Human Services (HHS)[^2] was also incorporated. HHS regularly publishes immigration data related to unaccompanied minors[^2], providing critical supplemental insights regarding trends in arrivals, custody durations, and sponsor releases.
 
 ## Data Preparation
 
@@ -43,7 +45,9 @@ Several limitations should be acknowledged. While the New York Times dataset pro
 
 # Introduction
 
-Unaccompanied minors arriving at the United States border represent a significant and complex aspect of contemporary migration patterns. This analysis examines demographic characteristics, custody durations, and sponsor placement outcomes for over **550,000** unaccompanied children recorded between **January 2015** and **May 2023**. Drawing on anonymized data provided by **The New York Times**, supplemented with publicly available data from the **U.S. Department of Health and Human Services (HHS)**, this study provides a structured overview of arrival trends, regional distributions, time spent in Office of Refugee Resettlement (ORR) custody, and subsequent release patterns. 
+Unaccompanied minors arriving at the United States border represent a significant and complex aspect of contemporary migration patterns. An unaccompanied minor is defined as _"a child who has no lawful immigration status in the United States; has not attained 18 years of age; and who does not have a parent or legal guardian in the United States, or whose parent or legal guardian is unavailable to provide care and physical custody"_[^3]. The Unaccompanied Alien Children (UAC) program is administered by the Office of Refugee Resettlement (ORR)[^4] within the Administration for Children and Families (ACF), a division of the U.S. Department of Health and Human Services (HHS)[^5].
+
+This analysis examines demographic characteristics, custody durations, and sponsor placement outcomes for over 550,000 unaccompanied children recorded between January 2015 and May 2023. Drawing on anonymized data provided by The New York Times, supplemented with publicly available data from HHS, this study provides a structured overview of arrival trends, regional distributions, time spent in ORR custody, and subsequent release patterns. 
 
 The analysis is organized into three sections: **Arrival**, which examines the demographics and regional origins of unaccompanied minors; **Detainment**, which explores custody durations within ORR facilities; and **Release to Sponsor**, which analyzes patterns of sponsor placement across the United States. Findings are presented through descriptive statistics and data visualizations to provide a clearer understanding of the evolving experiences of unaccompanied minors over the past decade.
 
@@ -266,6 +270,27 @@ The data on the number of unaccompanied children (UC) released to sponsors each 
   <img width="813" alt="Top Ten Released to States" src="https://github.com/user-attachments/assets/9d4e9c16-41c3-4973-9325-a35420ec9e50" />
 </div>
 
-The data displays the number of unaccompanied children (UC) released to sponsors in the ten states with the highest release numbers. **Texas (TX)** recorded the largest number of releases (**71,816**), followed by **California (CA)** with **61,143** and **Florida (FL)** with **53,810**. Other states, such as **New York (NY)** (**42,339**) and **Maryland (MD)** (**29,029**), also saw significant release numbers. States like **Georgia (GA)** (**19,679**) and **Tennessee (TN)** (**17,828**) had comparatively fewer releases but still ranked among the top ten. These figures highlight the states most impacted by sponsor placements, with Texas and California alone accounting for a substantial portion of the total.
+The above data displays the number of UC released to sponsors in the ten states with the highest release numbers. **Texas (TX)** recorded the largest number of releases (**71,816**), followed by **California (CA)** with **61,143** and **Florida (FL)** with **53,810**. Other states, such as **New York (NY)** (**42,339**) and **Maryland (MD)** (**29,029**), also saw significant release numbers. States like **Georgia (GA)** (**19,679**) and **Tennessee (TN)** (**17,828**) had comparatively fewer releases but still ranked among the top ten. These figures highlight the states most impacted by sponsor placements, with Texas and California alone accounting for a substantial portion of the total. </p>  
+
+**Key Takeaway:**
+
+The number of unaccompanied children released to sponsors fluctuated between 2015 and mid-2023, with a sharp decline in 2020 followed by a peak in 2021. Texas, California, and Florida accounted for the highest number of sponsor placements, with Texas and California alone representing a substantial share of total releases.
 
 
+<!-- CLOSE any previous centering -->
+<!-- Reset alignment explicitly -->
+
+<div align="left">
+  
+
+### References
+
+[^1]: The New York Times. (2023). *HHS Child Migrant Data Repository*. GitHub. [https://github.com/nytimes/hhs-child-migrant-data](https://github.com/nytimes/hhs-child-migrant-data)
+
+[^2]: Office of Refugee Resettlement. (2023). *Unaccompanied Children: Facts and Data*. U.S. Department of Health and Human Services, Administration for Children and Families. [https://www.acf.hhs.gov/orr/about/ucs/facts-and-data](https://www.acf.hhs.gov/orr/about/ucs/facts-and-data)
+
+[^3]: Office of Refugee Resettlement. (2023). *Unaccompanied Children Program Fact Sheet*. U.S. Department of Health and Human Services, Administration for Children and Families. [https://www.acf.hhs.gov/orr/fact-sheet/programs/uc/fact-sheet](https://www.acf.hhs.gov/orr/fact-sheet/programs/uc/fact-sheet)
+
+[^4]: Office of Refugee Resettlement. [https://acf.gov/orr](https://acf.gov/orr)
+
+[^5]: U.S. Department of Health and Human Services. [https://www.hhs.gov/](https://www.hhs.gov/)
