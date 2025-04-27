@@ -7,9 +7,7 @@ This analysis investigates the journeys of unaccompanied minors who arrive at th
 
 #### Data Sources
 
-This analysis utilizes data published by The New York Times[^1], containing anonymized information on over 550,000 child migrants between January 2015 and May 2023.
-
-The dataset includes key variables such as:
+This analysis utilizes two sources of data. First is data published by The New York Times[^1], containing anonymized information on over 550,000 unnacompanied minor migrants arriving in the United States between January 2015 and May 2023. This dataset includes the following:
 
 - **Child’s gender**
 - **Country of origin**
@@ -18,11 +16,18 @@ The dataset includes key variables such as:
 - **Relationship to the sponsor**
 - **ZIP code** of the child’s release destination
 
-To enhance the depth of the analysis, data from the U.S. Department of Health and Human Services (HHS)[^2] was also incorporated. HHS regularly publishes immigration data related to unaccompanied minors[^2], providing critical insights regarding trends in arrivals, custody durations, and sponsor releases.
+The second data set was mad available through Office of Refugee Resettlement (ORR)[^2], an agency within the Department of Health and Human Services. HHS regularly publishes immigration data pertaining to unaccompanied minors[^2], providing data on unaccompanied minors arrivals, custody durations, and sponsor releases. This dataset includes (but is not limited to) the following variables: 
+
+- **Child's age**
+- **Country of origin**
+- **Languages spoken** 
+- **Average length of care** 
+- **States minors are released to**
+
 
 ## Analytical Approach
 
-The analysis proceeded in two stages. First, descriptive statistics were calculated to summarize key demographic, geographic, and custodial characteristics, including gender distributions, country and regional origins, age cohorts, and average time in the Office of Refugees Resettlements (ORR) custody. The analysis is organized by fiscal year (October through September).
+The analysis proceeded in two stages. First, descriptive statistics were calculated to summarize key demographic, geographic, and custodial characteristics, including gender distributions, country and regional origins, age cohorts, and average time in the Office of ORR custody. The analysis is organized by fiscal year (October through September).
 
 Second, data visualizations were developed to support interpretation of major findings. Stacked bar plots, tree maps, and line graphs were created to illustrate trends in arrivals, detention durations, and sponsor placements. Visualizations were generated using R and Tableau to ensure accessibility for both technical and non-technical audiences.
 
@@ -84,8 +89,6 @@ The line graph above depicts annual entries of unaccompanied children in the Uni
 Between **FY2015** and **FY2023**, the number of unaccompanied children arriving in the United States fluctuated significantly. Arrivals increased from **25,885** in **FY2015** to a peak of **125,041** in **FY2022**. It is important to note that **FY2023** data covers only part of the year, with arrivals recorded at **67,506** from **76 countries** by mid-year. The lowest number of arrivals occurred in **FY2020** (**14,440**), likely impacted by external factors such as the COVID-19 pandemic.
 
 
-
-
 <br>
 
 **Country of origin percentages**
@@ -98,11 +101,11 @@ Between **FY2015** and **FY2023**, the number of unaccompanied children arriving
   <br>
 
 
-Between **FY2012** and **FY2024**, Guatemala consistently accounted for the largest share of arrivals, peaking at **54% in FY2018** and remaining dominant with **42% in FY2023**. Honduras followed as the second-largest source, fluctuating between **17% and 32%** over the years. In contrast, El Salvador and Mexico experienced significant declines, with El Salvador dropping from **34% in FY2016** to **8% in FY2024** and Mexico falling from **34% in FY2014** to **8% in FY2023**. Meanwhile, arrivals from "all other countries" grew steadily, increasing from **3-5% in earlier years** to **19% in FY2024**, reflecting a growing diversity in the origins of unaccompanied minors.
+Between FY2012 and FY2024, Guatemala consistently accounted for the largest share of arrivals, peaking at **54% in FY2018** and remaining dominant with **42% in FY2023**. Honduras followed as the second-largest source, fluctuating between 17 and 32% over the years. In contrast, El Salvador and Mexico experienced significant declines, with El Salvador dropping from **34% in FY2016** to **8% in FY2024** and Mexico falling from **34% in FY2014** to **8% in FY2023**. Meanwhile, arrivals from "all other countries" grew steadily, increasing from **3-5% in earlier years** to **19% in FY2024**, reflecting a growing diversity in the origins of unaccompanied minors.
 
 **Key Takeaway**
 
-Between **FY2015** and **FY2023**, the number of unaccompanied children (UC) arriving in the United States fluctuated significantly, rising from **25,885 in FY2015** to a peak of **125,041 in FY2022**. By mid-**FY2023**, **67,506 arrivals** from **76 countries** were recorded, though this data reflects only part of the year. The lowest arrivals occurred in **FY2020 (14,440)**, likely impacted by the COVID-19 pandemic.
+Between FY2015 and FY2023, the number of unaccompanied children arriving in the United States fluctuated significantly, rising from **25,885 in FY2015** to a peak of **125,041 in FY2022**. By mid-**FY2023**, **67,506 arrivals** from **76 countries** were recorded, though this data reflects only part of the year. The lowest arrivals occurred in **FY2020 (14,440)**, likely impacted by the COVID-19 pandemic.
 
 Guatemala and Honduras dominate as primary sources of UC arrivals, with Guatemala consistently leading. Meanwhile, arrivals from **El Salvador** and **Mexico** have steadily declined, and the share of arrivals from "all other countries" has grown to **19% in FY2024**, reflecting increasing diversity and evolving migration patterns.
 
