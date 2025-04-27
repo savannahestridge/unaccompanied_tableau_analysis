@@ -49,20 +49,22 @@ The analysis is organized into three sections: **Arrivals**, which examines the 
 
 </div>
 
-Between  January **FY2015** and May **FY2023**, approximately **550,000 unaccompanied children (UC)** were recorded arriving at the United States border.
+Between  January **FY2015** and May **FY2023**, approximately **550,000 unaccompanied minors** were recorded arriving at the United States border.
 
 <div align="center">
 
-#### Countries
+### Countries
 
-</div>
 
+<br>
+
+**Table 1: Total number of arrivals by country and region**
 <div align="center" style="border: 2px solid #ccc; padding: 10px; border-radius: 10px; display: inline-block;">
   <img width="325" alt="Arrivals" src="https://github.com/user-attachments/assets/7e645c30-3b2b-4144-a6a3-6f85ce634b92" />
  
 <p align="center">
  
-  Between January 2015 and May 2023, unaccompanied children arrived from a total of<br> **111 countries**
+  Between January 2015 and May 2023, unaccompanied minors arrived from a total of<br> **111 countries**
 spanning across **8 regions** worldwide.
  </p>
  
@@ -74,21 +76,21 @@ spanning across **8 regions** worldwide.
 | <img src="https://github.com/user-attachments/assets/9c801603-cc5a-42bc-8532-696e203b48cc" alt="Arrivals Per Year Plot" style="max-width:100%; height:auto;" /> |
 |:-----------------------------------------------------------------------------------------------------------:|
 | **Figure 1**: Arrivals Per Year  
-The line graph above depicts annual entries of unaccompanied children in the United States from January 2015 to May 2023.
+The line graph above depicts annual entries of unaccompanied minors in the United States from January 2015 to May 2023.
 <br>
 
 <br>
 
-**Table 1: Number of arrivals and countries of origin by year**
+**Table 2: Number of arrivals and countries of origin by year**
 <div align="center">
   <img width="600" alt="Screenshot 2025-01-20 at 9 09 25 PM" src="https://github.com/user-attachments/assets/6bd974d7-3451-4f75-8c3c-54a71e788900" />
 </div>
 
-According to the NYT, between January of FY2015 and May of FY2023 the number of unaccompanied children arriving in the United States fluctuated considerably. Arrivals increased from **25,885** in FY2015 to a peak of **125,041** in FY2022. FY2023 data, which covers only part of the fiscal year, recorded **67,506** arrivals from **76 countries** by mid-year. The lowest number of arrivals occurred in FY2020 (**14,440**), likely influenced by external factors such as the COVID-19 pandemic.
+According to the NYT, between January of FY2015 and May of FY2023 the number of unaccompanied minors arriving in the United States fluctuated considerably. Arrivals increased from **25,885** in FY2015 to a peak of **125,041** in FY2022 (a **383%** increase). FY2023 data, which covers only part of the fiscal year, recorded **67,506** arrivals from **76 countries** by mid-year. The lowest number of arrivals occurred in FY2020 (**14,440**), likely influenced by external factors such as the COVID-19 pandemic. [^1]
 
 <br>
 
-**Table 2: Country of origin percentages**
+**Table 3: Country of origin percentages**
 
 <div align="center">
   <img width="800" alt="Screenshot 2025-01-20 at 8 11 43 PM" src="https://github.com/user-attachments/assets/9e951320-e295-41dd-acff-5aa3e2adec7d" />
@@ -98,21 +100,22 @@ According to the NYT, between January of FY2015 and May of FY2023 the number of 
   <br>
 
 
-According to ORR[^2], between FY2012 and FY2024, Guatemala consistently accounted for the largest share of arrivals, peaking at **54%** in FY2018 and remaining dominant at **42%** in FY2023. Honduras followed as the second-largest source, fluctuating between **17%** and **32%** over the period. In contrast, arrivals from El Salvador and Mexico declined substantially, with El Salvador falling from **34%** in FY2016 to **8%** in FY2024, and Mexico from **34%** in FY2014 to **8%** in FY2023. Meanwhile, the share of arrivals from "all other countries" grew steadily, rising from **3–5%** in earlier years to **19%** in FY2024, reflecting increasing diversity in the origins of unaccompanied minors.
+Between FY2012 and FY2024, Guatemala consistently accounted for the largest share of arrivals, peaking at **54%** in FY2018 and remaining dominant at **42%** in FY2023. Honduras followed as the second-largest source, fluctuating between **17%** and **32%** over the period. In contrast, arrivals from El Salvador and Mexico declined substantially, with El Salvador falling from **34%** in FY2016 to **8%** in FY2024, and Mexico from **34%** in FY2014 to **8%** in FY2023. Meanwhile, the share of arrivals from "all other countries" grew steadily, rising from **3–5%** in earlier years to **19%** in FY2024, reflecting increasing diversity in the origins of unaccompanied minors.[^2]
 
 
-**Key Takeaway**
+**Key Takeaway:**
 
-Guatemala and Honduras were the primary countries of origin for unaccompanied minor arrivals, with Guatemala consistently leading. Meanwhile, arrivals from El Salvador and Mexico have steadily declined, and the share of arrivals from "all other countries" has grown to 19% in FY2024, reflecting increasing diversity and evolving migration patterns.
+Guatemala and Honduras were the primary countries of origin for unaccompanied minor arrivals, with **Guatemala consistently leading**. Although the number of arrivals fluctuated over the study period, the number of countries of origin increased each year, with the exception of a slight decline in FY2020. By May 2023, unaccompanied minors had arrived from **76 countries**. This rise in the number of countries of origin may reflect broader shifts in global migration patterns and emerging regional conflicts.
+
 
 ### Regions
 
 </div>
 
 
-<div align="center" style="max-width:500px; margin:auto;">
+<div align="center" style="max-width:550px; margin:auto;">
 
-| <img width="350" height="200" alt="Arrivals Tree Map" src="https://github.com/user-attachments/assets/47725075-1a7c-48c4-8fdf-18fabe78947c" /> |
+| <img width="600" height="350" alt="Arrivals Tree Map" src="https://github.com/user-attachments/assets/47725075-1a7c-48c4-8fdf-18fabe78947c" /> |
 |:-----------------------------------------------------------------------------------------------------------:|
 | **Figure 2**: Arrivals Tree Map  
 This tree map displays the relative proportions of unaccompanied minor arrivals by region. Each rectangle represents a region, with the size of the rectangle corresponding to the number of arrivals. Larger rectangles indicate higher numbers, while smaller rectangles represent regions with fewer arrivals.
@@ -121,7 +124,7 @@ This tree map displays the relative proportions of unaccompanied minor arrivals 
 </div>
 <br>
 
-**Regional Distribution of Arrivals**
+**Table 4: Regional Distribution of Arrivals**
 
 <div align="center">
   <img width="800" alt="region" src="https://github.com/user-attachments/assets/8ffec00c-480f-44d4-b664-107423a67e17" />
@@ -129,7 +132,7 @@ This tree map displays the relative proportions of unaccompanied minor arrivals 
 
 
 
-The data indicates that the vast majority of unaccompanied minors arriving in the United States originate from **Central America**, accounting for **511,404 arrivals**, significantly outnumbering all other regions. **North America** (primarily Mexico) follows with **15,874 arrivals**, and **South America** is next with **15,137 arrivals**. Other regions such as **Asia** (**5,814 arrivals**), the **Caribbean** (**3,507 arrivals**), **Europe** (**707 arrivals**), **Africa** (**470 arrivals**), and the **Middle East** (**321 arrivals**) contribute comparatively smaller numbers. This highlights the predominance of migration from **Central America** and, to a lesser extent, neighboring regions like **North and South America**.
+The vast majority of unaccompanied minors arriving in the United States originate from **Central America**, accounting for **511,404** arrivals, significantly outnumbering all other regions. **North America** (primarily Mexico) follows with **15,874 arrivals**, and **South America** is next with **15,137** arrivals. Other regions such as **Asia** (**5,814** arrivals), the **Caribbean** (**3,507** arrivals), **Europe** (**707** arrivals), **Africa** (**470** arrivals), and the **Middle East** (**321** arrivals) contribute comparatively smaller numbers. This highlights the predominance of migration from **Central America** and, to a lesser extent, neighboring regions like **North and South America**.[^1] 
 
 **Key takeaway:**
 
@@ -148,17 +151,18 @@ This stacked bar chart displays the percentage distribution of unaccompanied min
 <br>
 
 
-**Yearly age range by percentage**
+**Table 5: Yearly age range by percentage**
 <div align="center">
   <img width="831" alt="Age" src="https://github.com/user-attachments/assets/07f0194f-97ab-46af-8d22-ee6fe11ab53f" />
 </div>
 
 
-The age distribution of unaccompanied minors arriving in the United States has remained relatively consistent over the years. Minors aged **15-16** continue to represent the largest group, accounting for **31-40%** of arrivals, with a peak of **40% in FY2013**. The **17+** age group follows closely, comprising **30-38%** of arrivals across most years. Younger age groups, **0-12** and **13-14**, have historically made up smaller shares, with the **0-12** group gradually increasing from **11% in FY2012** to **24% in FY2024**, while the **13-14** group remains steady at **11-16%**. Recent data from **FY2024** suggests a small shift toward younger children, with the **15-16** and **17+** age groups seeing slight declines.
+The age distribution of unaccompanied minors arriving in the United States has remained relatively consistent over the years. Minors aged **15-16** continue to represent the largest group, accounting for **31-40%** of arrivals, with a peak of **40%** in FY2013. The **17+** age group follows closely, comprising **30-38%** of arrivals across most years. Younger age groups, **0-12** and **13-14**, have historically made up smaller shares, with the **0-12** group gradually increasing from **11%** in FY2012 to **24%** in FY2024, while the **13-14** group remains steady at **11-16%**. Recent data from **FY2024** suggests a small shift toward younger children, with the **15-16** and **17+** age groups seeing slight declines.[^2]
 
 **Key Takeaway:**
 
-While the overall age distribution of unaccompanied minors has been stable, there is a subtle shift toward younger children, particularly those aged **0-12**, whose share has steadily grown over the years. The continued dominance of the **15-16** and **17+** age groups highlights their importance in the overall demographic trends, but the increasing presence of younger children indicates evolving migration dynamics that may reflect changing circumstances influencing who undertakes these journeys.
+Although minors aged 15–16 and 17 and older continue to represent the majority of unaccompanied arrivals, recent data indicate a gradual increase in the proportion of younger children aged 0–12. This shift suggests a modest change in the age profile of unaccompanied minors over time, with potential implications for service needs and case processing.
+
 
 
 
@@ -172,20 +176,20 @@ While the overall age distribution of unaccompanied minors has been stable, ther
 This stacked bar plot illustrates the annual percentage distribution of unaccompanied minors by gender from 2015 through mid-2023. Each bar represents 100 percent of arrivals for a given year, segmented into two categories: male and female.
 <br>
 
-**Gender Distribution of Unaccompanied Minors by Fiscal Year (FY2012–FY2024)**
+**Table 6: Gender Distribution of Unaccompanied Minors by Fiscal Year (FY2012–FY2024)**
 
 <div align="center">
   <img width="813" alt="Gender" src="https://github.com/user-attachments/assets/e44e0940-11ee-4378-ab1c-e3a17c6da3b8" />
 </div>
 
 
-The table presents the proportion of unaccompanied minors by gender for each fiscal year from 2012 through 2024. Males consistently represented the majority of arrivals across all years, although their proportion declined over time. In FY2012, males accounted for **77%** of arrivals, compared to **23%** for females. By FY2024, the proportion of male arrivals had decreased to **61%**, while the proportion of female arrivals increased to **38%**.
+Table 5 presents the proportion of unaccompanied minors by gender for each fiscal year from FY2012 through FY2024. Males consistently represented the majority of arrivals across all years, although their proportion declined over time. In FY2012, males accounted for **77%** of arrivals, compared to **23%** for females. By FY2024, the proportion of male arrivals had decreased to **61%**, while the proportion of female arrivals increased to **38%**.[^2]
 
-The most substantial shifts occurred between FY2012 and FY2014, when the proportion of males declined from **77%** to **66%**, and the proportion of females correspondingly rose from **23%** to **34%**. From FY2015 onward, the gender distribution remained relatively stable, with only gradual changes. Notably, between FY2022 and FY2024, the percentage of females increased from **36%** to **38%**, suggesting a slight upward trend in the share of female minors among recent arrivals.
+The most substantial shifts occurred between FY2012 and FY2014, when the proportion of males declined from **77%** to **66%**, and the proportion of females correspondingly rose from **23%** to **34%**. From FY2015 onward, the gender distribution remained relatively stable, with only gradual changes. Notably, between FY2022 and FY2024, the percentage of females increased from **36%** to **38%**, suggesting a slight upward trend in the share of female minors among recent arrivals.[^2]
 
 **Key Takeaway:**
 
-Between FY2012 and FY2024, the proportion of male unaccompanied minors declined from **77%** to **61%**, while the proportion of females rose from **23%** to **38%**, indicating a gradual shift toward gender balance.
+Between FY2012 and FY2024, the gender gap among unaccompanied minors narrowed, reflecting a gradual but sustained increase in the proportion of female arrivals.
 
 ---------------------------
 
@@ -203,14 +207,14 @@ Between FY2012 and FY2024, the proportion of male unaccompanied minors declined 
 This bar chart displays the **average number of days unaccompanied minors spent in ORR (Office of Refugee Resettlement) custody** for each fiscal year. Each bar represents the yearly average duration of detention, allowing for easy comparison of custody
 
 
-**Average number of days detained in ORR custody by year**
+**Table 6: Average number of days detained in ORR custody by year**
 <div align="center">
 <img width="721" alt="Days in ORR Custody" src="https://github.com/user-attachments/assets/3442db3e-abbf-49fa-9e44-92462d438d00" />
 </div>
 
 Between **2015** and **2020**, the average number of days detained increased from **38 days** to **69 days**, reflecting an **81.6% rise**. Notably, **2020** recorded the longest average detention time. Since then, the average number of days detained has declined steadily each year. By mid-**2023**, detention times have dropped to less than half of the **2020 average**, despite a significant increase in the number of arrivals.
 
-**Average number of days detained in ORR custody by region 2015 through mid 2023**
+**Table 7: Average number of days detained in ORR custody by region 2015 through mid 2023**
 <div align="center">
   <img width="868" alt="Days detained region" src="https://github.com/user-attachments/assets/c8750efd-b3e3-49ab-971e-a9fc381e0067" />
 </div>
