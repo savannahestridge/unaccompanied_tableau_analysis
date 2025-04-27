@@ -85,7 +85,7 @@ The line graph above depicts the total number of entries of unaccompanied childr
 
 **Number of arrivals and countries of origin by year**
 <div align="center">
-  <img width="830" alt="Screenshot 2025-01-20 at 9 09 25 PM" src="https://github.com/user-attachments/assets/6bd974d7-3451-4f75-8c3c-54a71e788900" />
+  <img width="300" alt="Screenshot 2025-01-20 at 9 09 25 PM" src="https://github.com/user-attachments/assets/6bd974d7-3451-4f75-8c3c-54a71e788900" />
 </div>
 
 Between **FY2015** and **FY2023**, the number of unaccompanied children (UC) arriving in the United States fluctuated significantly. Arrivals increased from **25,885** in **FY2015** to a peak of **125,041** in **FY2022**. It is important to note that **FY2023** data covers only part of the year, with arrivals recorded at **67,506** from **76 countries** by mid-year. The lowest number of arrivals occurred in **FY2020** (**14,440**), likely impacted by external factors such as the COVID-19 pandemic.
