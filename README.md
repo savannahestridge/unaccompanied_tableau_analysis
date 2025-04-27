@@ -1,15 +1,11 @@
-README.md
-
-
-
 
 # Purpose: 
 
 This analysis investigates the journeys of unaccompanied minors who arrive at the United States border, with the aim of providing an understanding of their experiences through data analysis. The findings are presented in two formats: a comprehensive analysis within this **README.md**, intended for readers with a background in data analysis, and a **Tableau dashboard** designed to engage a wider audience, including those less familiar with immigration issues or large-scale datasets. 
 
-# Methodology
+### Methodology
 
-## Data Sources
+#### Data Sources
 
 This analysis utilizes a dataset published by The New York Times[^1], containing anonymized information on over 550,000 child migrants between January 2015 and May 2023.
 
@@ -24,10 +20,6 @@ The dataset includes key variables such as:
 
 To enhance the depth of the analysis, data from the U.S. Department of Health and Human Services (HHS)[^2] was also incorporated. HHS regularly publishes immigration data related to unaccompanied minors[^2], providing critical supplemental insights regarding trends in arrivals, custody durations, and sponsor releases.
 
-## Data Preparation
-
-Data cleaning procedures were conducted to ensure consistency and reliability across datasets. Incomplete records were removed, categorical variables were standardized, and duplicate entries were identified and excluded. All dates were converted to align with fiscal year conventions (October 1–September 30) used in federal reporting. Regional classifications were harmonized to support comparative analysis of geographic trends across sources.
-
 ## Analytical Approach
 
 The analysis proceeded in two stages. First, descriptive statistics were calculated to summarize key demographic, geographic, and custodial characteristics, including gender distributions, country and regional origins, age cohorts, and average time in ORR custody. Temporal trends were examined across fiscal years to capture changes over time.
@@ -38,12 +30,11 @@ Second, data visualizations were developed to support interpretation of major fi
 
 Several limitations should be acknowledged. While the New York Times dataset provides extensive coverage, it is anonymized and may omit variables relevant for more detailed case-level analysis. Fiscal year 2023 data reflect only partial-year reporting, which may influence interpretation of year-over-year trends. Additionally, while this analysis identifies trends in detention and placement, it does not incorporate legal outcomes or longitudinal tracking post-release, which would be necessary for a full understanding of minors' longer-term experiences.
 
-
 ------------------
 <!-- Reset alignment explicitly -->
 <div align="left">
 
-# Introduction
+## Introduction
 
 Unaccompanied minors arriving at the United States border represent a significant and complex aspect of contemporary migration patterns. An unaccompanied minor is defined as _"a child who has no lawful immigration status in the United States; has not attained 18 years of age; and who does not have a parent or legal guardian in the United States, or whose parent or legal guardian is unavailable to provide care and physical custody"_[^3]. The Unaccompanied Alien Children (UAC) program is administered by the Office of Refugee Resettlement (ORR)[^4] within the Administration for Children and Families (ACF), a division of the U.S. Department of Health and Human Services (HHS)[^5].
 
@@ -51,7 +42,7 @@ This analysis examines demographic characteristics, custody durations, and spons
 
 The analysis is organized into three sections: **Arrival**, which examines the demographics and regional origins of unaccompanied minors; **Detainment**, which explores custody durations within ORR facilities; and **Release to Sponsor**, which analyzes patterns of sponsor placement across the United States. Findings are presented through descriptive statistics and data visualizations to provide a clearer understanding of the evolving experiences of unaccompanied minors over the past decade.
 
-## 1. Arrivals: Demographics Overview 
+### 1. Arrivals: Demographics Overview 
 
 </div>
 
@@ -59,7 +50,7 @@ Between  January **FY2015** and May **FY2023**, approximately **550,000 unaccomp
 
 <div align="center">
 
-### Countries
+#### Countries
 
 </div>
 
@@ -75,17 +66,18 @@ spanning across **8 regions** worldwide.
 </div>
 <br><br>
 
-<div align="center">
+<div align="center" style="max-width:600px; margin:auto;">
 
-| ![Arrivals Per Year Plot](https://github.com/user-attachments/assets/9c801603-cc5a-42bc-8532-696e203b48cc) |
-|-----------------------------------------------------------------------------------------------------------|
-| **Figure 1**: Arrivals Per Year                                                                     |
+| <img width="500" height="250" alt="Arrivals Per Year Plot" src="https://github.com/user-attachments/assets/9c801603-cc5a-42bc-8532-696e203b48cc" /> |
+|:-----------------------------------------------------------------------------------------------------------:|
+| **Figure 1**: Arrivals Per Year  
 The line graph above depicts the total number of entries of unaccompanied children (UC) by year in the United States.
 <br>
 
+
 **Number of arrivals and countries of origin by year**
 <div align="center">
-  <img width="300" alt="Screenshot 2025-01-20 at 9 09 25 PM" src="https://github.com/user-attachments/assets/6bd974d7-3451-4f75-8c3c-54a71e788900" />
+  <img width="600" alt="Screenshot 2025-01-20 at 9 09 25 PM" src="https://github.com/user-attachments/assets/6bd974d7-3451-4f75-8c3c-54a71e788900" />
 </div>
 
 Between **FY2015** and **FY2023**, the number of unaccompanied children (UC) arriving in the United States fluctuated significantly. Arrivals increased from **25,885** in **FY2015** to a peak of **125,041** in **FY2022**. It is important to note that **FY2023** data covers only part of the year, with arrivals recorded at **67,506** from **76 countries** by mid-year. The lowest number of arrivals occurred in **FY2020** (**14,440**), likely impacted by external factors such as the COVID-19 pandemic.
@@ -115,18 +107,16 @@ Guatemala and Honduras dominate as primary sources of UC arrivals, with Guatemal
 
 ### Regions
 
-
-
 </div>
 
 
-<div align="center">
+<div align="center" style="max-width:500px; margin:auto;">
 
-| ![arrivals_tree_map](https://github.com/user-attachments/assets/47725075-1a7c-48c4-8fdf-18fabe78947c) |
-|-------------------------------------------------------------------------------------------------------|
-| **Figure 2**: Arrivals Tree Map                                                                      |
+| <img width="350" height="200" alt="Arrivals Tree Map" src="https://github.com/user-attachments/assets/47725075-1a7c-48c4-8fdf-18fabe78947c" /> |
+|:-----------------------------------------------------------------------------------------------------------:|
+| **Figure 2**: Arrivals Tree Map  
 This tree map displays the relative proportions of unaccompanied minor arrivals by region. Each rectangle represents a region, with the size of the rectangle corresponding to the number of arrivals. Larger rectangles indicate higher numbers, while smaller rectangles represent regions with fewer arrivals.
-
+<br>
 
 </div>
 <br>
@@ -143,19 +133,20 @@ The data indicates that the vast majority of unaccompanied minors arriving in th
 
 **Key takeaway:**
 
-The majority of unaccompanied minors originate from **Central America**, emphasizing the region's migration pressures and the need for targeted interventions. Contributions from **North America** and **South America** highlight the influence of geographic proximity on migration trends, while smaller numbers from regions like **Asia**, **Africa**, and the **Middle East** reflect broader global migration challenges. These trends underline the importance of regional cooperation and policies addressing both local and global drivers of migration.
+The majority of unaccompanied minors originate from **Central America**, emphasizing the region's migration pressures and the need for targeted interventions. Contributions from **North America** and **South America** highlight the influence of geographic proximity on migration trends, while smaller numbers from regions like **Asia**, **Africa**, and the **Middle East** reflect broader global migration challenges. 
 
 <div align="center">
 
 ### Age
 
-<div align="center">
+<div align="center" style="max-width:500px; margin:auto;">
 
-| <img src="https://github.com/user-attachments/assets/7fb9f910-264f-4b51-acc4-0fff4f4c6ac2" alt="Age Range Stacked Bar" width="600"> |
+| <img width="500" height="350" alt="Age Range Stacked Bar" src="https://github.com/user-attachments/assets/7fb9f910-264f-4b51-acc4-0fff4f4c6ac2" /> |
 |:---------------------------------------------------------------------------------------------------------:|
-| **Figure 3**: Age Range Stacked Bar                                                                      |
+| **Figure 3**: Age Range Stacked Bar  
 This stacked bar chart displays the percentage distribution of unaccompanied minors by age group (**0-12**, **13-14**, **15-16**, and **17+**) for each fiscal year from **FY2015** to **mid FY2023**, with each bar representing the total 100% for that year divided into the respective age groups.
 <br>
+
 
 **Yearly age range by percentage**
 <div align="center">
@@ -173,12 +164,12 @@ While the overall age distribution of unaccompanied minors has been stable, ther
 
 ### Gender 
 
-<div align="center">
+<div align="center" style="max-width:500px; margin:auto;">
 
-| <img src="https://github.com/user-attachments/assets/651549ce-07d2-4203-b227-bf1ce7f3be84" alt="Gender Bar Plot" width="600"> |
+| <img width="500" height="350" alt="Gender Bar Plot" src="https://github.com/user-attachments/assets/651549ce-07d2-4203-b227-bf1ce7f3be84" /> |
 |:---------------------------------------------------------------------------------------------------------:|
-| **Figure 4**: Gender Distribution Stacked Bar Plot                                                                             |
-This stacked bar plot illustrates the annual percentage distribution of unaccompanied minors by gender from 2015 through mid-2023. Each bar represents 100 percent of arrivals for a given year, segmented into two categories: male and female. This format enables direct comparison of gender proportions across the observation period.
+| **Figure 4**: Gender Distribution Stacked Bar Plot  
+This stacked bar plot illustrates the annual percentage distribution of unaccompanied minors by gender from 2015 through mid-2023. Each bar represents 100 percent of arrivals for a given year, segmented into two categories: male and female.
 <br>
 
 **Gender Distribution of Unaccompanied Minors by Fiscal Year (FY2012–FY2024)**
@@ -194,9 +185,7 @@ The most substantial shifts occurred between FY2012 and FY2014, when the proport
 
 **Key Takeaway:**
 
-Between FY2012 and FY2024, the proportion of male unaccompanied minors declined from **77%** to **61%**, while the proportion of females rose from **23%** to **38%**, indicating a gradual shift toward greater gender balance.
-
-
+Between FY2012 and FY2024, the proportion of male unaccompanied minors declined from **77%** to **61%**, while the proportion of females rose from **23%** to **38%**, indicating a gradual shift toward gender balance.
 
 ---------------------------
 
@@ -206,14 +195,13 @@ Between FY2012 and FY2024, the proportion of male unaccompanied minors declined 
 
 ## 2. Detained: Time in ORR Custody Prior to Release
 
-</div>
+<div align="center" style="max-width:500px; margin:auto;">
 
-| <img width="600" alt="Average Days in ORR Custody" src="https://github.com/user-attachments/assets/d8475dcf-22e5-4583-a9c6-225ae85c9f6b" /> |
+| <img width="500" height="350" alt="Average Days in ORR Custody" src="https://github.com/user-attachments/assets/d8475dcf-22e5-4583-a9c6-225ae85c9f6b" /> |
 |:------------------------------------------------------------------------------------------------------------------:|
-| **Figure 5**: Average Days in ORR Custody                                                                          |
-This bar chart displays the **average number of days unaccompanied minors spent in ORR (Office of Refugee Resettlement) custody** for each fiscal year. Each bar represents the yearly average duration of detention, allowing for easy comparison of custody times across fiscal years. The chart helps identify trends and changes in the average length of custody over time.
-<br>
-</div>
+| **Figure 5**: Average Days in ORR Custody  
+This bar chart displays the **average number of days unaccompanied minors spent in ORR (Office of Refugee Resettlement) custody** for each fiscal year. Each bar represents the yearly average duration of detention, allowing for easy comparison of custody
+
 
 **Average number of days detained in ORR custody by year**
 <div align="center">
@@ -242,18 +230,14 @@ The average time minors spent in ORR custody peaked at **69 days in 2020** but h
 
 ## 3. Release to Sponsor
 
-<div align="center">
+<div align="center" style="max-width:400px; margin:auto;">
 
-| <img width="600" alt="Released to Sponsor Each Year" src="https://github.com/user-attachments/assets/3225773d-865c-4743-8823-6197f482f535" /> |
+| <img width="500" height="350" alt="Released to Sponsor Each Year" src="https://github.com/user-attachments/assets/3225773d-865c-4743-8823-6197f482f535" /> |
 |:---------------------------------------------------------------------------------------------------------------------------------:|
 | **Figure 6**: Number of Children Released to Sponsors by Year  
 This bar chart displays the **number of unaccompanied children released to sponsors** for each fiscal year from **FY2015 to FY2023**. Each bar represents the total number of children released in a given year, allowing for year-over-year comparison.
 <br>
-</div>
-
-<br><br>
-
-
+<br>
 
 <div align="center">
   <strong>Children Released to Sponsors by Year</strong>
@@ -265,10 +249,13 @@ This bar chart displays the **number of unaccompanied children released to spons
   <img width="813" alt="Screenshot 2025-01-21 at 2 45 49 PM" src="https://github.com/user-attachments/assets/ecc1ceb9-80bf-4363-b48c-b6a1486059b2" />
 </div>
 
+
 The data on the number of unaccompanied children (UC) released to sponsors each year from 2015 to mid-2023 highlights notable trends and fluctuations. Releases peaked in 2021 with **144,937** children, coinciding with an increase in overall arrivals during that period. In contrast, 2020 recorded the lowest number of releases (**14,273**), likely impacted by the COVID-19 pandemic, which disrupted immigration processes and reduced border crossings. The decline in 2020 was followed by a sharp recovery in 2021 and slightly lower but still elevated releases in 2022 (**123,836**).
 
-<br><br>
+<br>
 
+<div align="center">
+  
 **Top 10 States by Number of Unaccompanied Minors Released to Sponsors**
 <div align="center">
   <img width="813" alt="Top Ten Released to States" src="https://github.com/user-attachments/assets/9d4e9c16-41c3-4973-9325-a35420ec9e50" />
