@@ -7,7 +7,7 @@ This analysis investigates the journeys of unaccompanied minors who arrive at th
 
 #### Data Sources
 
-This analysis utilizes a dataset published by The New York Times[^1], containing anonymized information on over 550,000 child migrants between January 2015 and May 2023.
+This analysis utilizes data published by The New York Times[^1], containing anonymized information on over 550,000 child migrants between January 2015 and May 2023.
 
 The dataset includes key variables such as:
 
@@ -18,13 +18,13 @@ The dataset includes key variables such as:
 - **Relationship to the sponsor**
 - **ZIP code** of the child’s release destination
 
-To enhance the depth of the analysis, data from the U.S. Department of Health and Human Services (HHS)[^2] was also incorporated. HHS regularly publishes immigration data related to unaccompanied minors[^2], providing critical supplemental insights regarding trends in arrivals, custody durations, and sponsor releases.
+To enhance the depth of the analysis, data from the U.S. Department of Health and Human Services (HHS)[^2] was also incorporated. HHS regularly publishes immigration data related to unaccompanied minors[^2], providing critical insights regarding trends in arrivals, custody durations, and sponsor releases.
 
 ## Analytical Approach
 
-The analysis proceeded in two stages. First, descriptive statistics were calculated to summarize key demographic, geographic, and custodial characteristics, including gender distributions, country and regional origins, age cohorts, and average time in ORR custody. Temporal trends were examined across fiscal years to capture changes over time.
+The analysis proceeded in two stages. First, descriptive statistics were calculated to summarize key demographic, geographic, and custodial characteristics, including gender distributions, country and regional origins, age cohorts, and average time in the Office of Refugees Resettlements (ORR) custody. The analysis is organized by fiscal year (October through September).
 
-Second, data visualizations were developed to support interpretation of major findings. Stacked bar plots, tree maps, and line graphs were created to illustrate trends in arrivals, detention durations, and sponsor placements. Visualizations were generated using R and Tableau to ensure accessibility for both technical and non-technical audiences. Supplemental tables were also developed to highlight significant patterns by fiscal year and region.
+Second, data visualizations were developed to support interpretation of major findings. Stacked bar plots, tree maps, and line graphs were created to illustrate trends in arrivals, detention durations, and sponsor placements. Visualizations were generated using R and Tableau to ensure accessibility for both technical and non-technical audiences.
 
 ## Limitations
 
