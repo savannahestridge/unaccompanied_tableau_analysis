@@ -66,21 +66,22 @@ spanning across **8 regions** worldwide.
 </div>
 <br><br>
 
-<div align="center" style="max-width:600px; margin:auto;">
+<div align="center" style="max-width:800px; margin:auto;">
 
-| <img width="500" height="250" alt="Arrivals Per Year Plot" src="https://github.com/user-attachments/assets/9c801603-cc5a-42bc-8532-696e203b48cc" /> |
+| <img src="https://github.com/user-attachments/assets/9c801603-cc5a-42bc-8532-696e203b48cc" alt="Arrivals Per Year Plot" style="max-width:100%; height:auto;" /> |
 |:-----------------------------------------------------------------------------------------------------------:|
 | **Figure 1**: Arrivals Per Year  
 The line graph above depicts the total number of entries of unaccompanied children (UC) by year in the United States.
 <br>
 
+<br>
 
 **Number of arrivals and countries of origin by year**
 <div align="center">
   <img width="600" alt="Screenshot 2025-01-20 at 9 09 25 PM" src="https://github.com/user-attachments/assets/6bd974d7-3451-4f75-8c3c-54a71e788900" />
 </div>
 
-Between **FY2015** and **FY2023**, the number of unaccompanied children (UC) arriving in the United States fluctuated significantly. Arrivals increased from **25,885** in **FY2015** to a peak of **125,041** in **FY2022**. It is important to note that **FY2023** data covers only part of the year, with arrivals recorded at **67,506** from **76 countries** by mid-year. The lowest number of arrivals occurred in **FY2020** (**14,440**), likely impacted by external factors such as the COVID-19 pandemic.
+Between **FY2015** and **FY2023**, the number of unaccompanied children arriving in the United States fluctuated significantly. Arrivals increased from **25,885** in **FY2015** to a peak of **125,041** in **FY2022**. It is important to note that **FY2023** data covers only part of the year, with arrivals recorded at **67,506** from **76 countries** by mid-year. The lowest number of arrivals occurred in **FY2020** (**14,440**), likely impacted by external factors such as the COVID-19 pandemic.
 
 
 
